@@ -16,6 +16,6 @@ app.get('/healtcheck', (req, res) => {
 
 
 app.listen(PORT, () => {
-// db test edildi
+
     console.log(`Server is running on port ${PORT}`);
 });
