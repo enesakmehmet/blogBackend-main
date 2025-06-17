@@ -9,5 +9,5 @@ export async function up(knex) {
 }
 
 export async function down(knex) {
-    await knex.schema.dropTable("comments");
+    await knex.schema.dropTable("comments"); // yorum tablosunu sil
 }
