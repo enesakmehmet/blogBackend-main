@@ -21,3 +21,5 @@ export const updateCategory =async (id:number, data:object) => {
 export const deleteCategory =async (id:number) => {
     return db('categories').where({id}).update({deleted_at: new Date()}).returning('*');
 }
+
+
